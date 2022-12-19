@@ -1,0 +1,17 @@
+{
+  "name": "web-site-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass -w sass -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "nose": "^0.1.0",
+    "sass": "^1.56.1"
+  }
+}
