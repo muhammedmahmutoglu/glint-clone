@@ -6,7 +6,7 @@
   letter-spacing: 2px; }
 
 .content {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.557)), url(/ımg/hero-bg.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.557)), url("../ımg/hero-bg.png");
   background-size: cover;
   background-position: center center;
   padding-bottom: 10rem; }
@@ -141,7 +141,6 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -201,7 +200,7 @@ body {
 
 .contact {
   background-color: #151515;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(/ımg/contact-bg.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(../ımg/contact-bg.png);
   background-repeat: no-repeat;
   background-position: center, center; }
   .contact h6 {
@@ -348,8 +347,6 @@ footer {
     body .images .image-bar {
       width: 433px;
       top: -53px; }
-    body .images .asimeril-col {
-      margin-top: -79px !important; }
     body .images .images-content {
       padding-bottom: 5rem; }
   body .partner .partner-header h6 {
@@ -444,8 +441,6 @@ footer {
     background: linear-gradient(180deg, black 34%, white 27%); }
     html body .images .images-header p {
       font-size: 47px !important; }
-    html body .images .asimeril-col {
-      margin-top: -108px !important; }
     html body .images .images-content {
       padding-bottom: 11rem; }
   html body .partner .partner-header p {
@@ -486,8 +481,6 @@ footer {
       bottom: -94px; }
     html body .content .bar {
       top: 80px; }
-  html body .images .asimeril-col {
-    margin-top: -111px !important; }
   html body .partner .partner-header p {
     padding: 0px 7rem !important; }
   html body .partner .swiper {
@@ -531,8 +524,6 @@ footer {
   html body .images .image-bar {
     width: 550px;
     top: -53px; }
-  html body .images .asimeril-col {
-    margin-top: -133px !important; }
   html body .partner .partner-header p {
     font-size: 39px !important;
     padding: 0 9rem !important; }
@@ -586,8 +577,6 @@ footer {
     html body .images .image-bar {
       width: 550px;
       top: -53px; }
-    html body .images .asimeril-col {
-      margin-top: -158px !important; }
   html body .partner .partner-header p {
     font-size: 48px !important;
     padding: 4rem 17rem !important; }

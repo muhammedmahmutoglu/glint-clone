@@ -9,10 +9,10 @@ $spaces: #0c0c0c;
 
 .content {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.557)),
-    url(/ımg/hero-bg.png);
+    url("../ımg/hero-bg.png");
   background-size: cover;
   background-position: center center;
-  padding-bottom: 10rem;
+  padding-bottom: 10rem; 
   img {
     max-width: 80px;
   }
@@ -150,6 +150,7 @@ $spaces: #0c0c0c;
     h6 {
       color: #39b54a;
       padding-top: 5rem;
+ 
     }
 
     img {
@@ -219,7 +220,6 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -296,7 +296,7 @@ body {
       rgba(0, 0, 0, 0.603),
       rgba(0, 0, 0, 0.603)
     ),
-    url(/ımg/contact-bg.png);
+    url(../ımg/contact-bg.png);
   background-repeat: no-repeat;
   background-position: center, center;
   h6 {
@@ -525,11 +525,10 @@ footer {
         width: 433px;
         top: -53px;
       }
-      .asimeril-col {
-        margin-top: -79px !important;
-      }
+
       .images-content {
         padding-bottom: 5rem;
+
       }
     }
     .partner {
@@ -686,9 +685,6 @@ footer {
             font-size: 47px !important;
           }
         }
-        .asimeril-col {
-          margin-top: -108px !important;
-        }
         .images-content {
           padding-bottom: 11rem;
         }
@@ -767,11 +763,6 @@ footer {
         }
         .bar {
           top: 80px;
-        }
-      }
-      .images {
-        .asimeril-col {
-          margin-top: -111px !important;
         }
       }
       .partner {
@@ -861,9 +852,6 @@ footer {
         .image-bar {
           width: 550px;
           top: -53px;
-        }
-        .asimeril-col {
-          margin-top: -133px !important;
         }
       }
       .partner {
@@ -971,9 +959,6 @@ footer {
         .image-bar {
           width: 550px;
           top: -53px;
-        }
-        .asimeril-col {
-          margin-top: -158px !important;
         }
       }
       .partner {
